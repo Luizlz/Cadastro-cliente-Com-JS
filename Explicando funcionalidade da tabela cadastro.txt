@@ -1,0 +1,35 @@
+Folha de cadastro feita com Base no curso " JavaScript na Web" 
+
+Folha de cadastro utiliza HTML, Css e JavaScript
+
+Funcionalidades:
+Todos os campos são obrigatórios para realizar cadastro, caso não preencher não será possível
+concluir cadastro 
+
+
+Campos 
+nome: 1- "Todos os Dígitos incluídos são automaticamente transformados em Minúsculos "
+
+e-mail: 1- "Todos os Dígitos incluídos são automaticamente transformados em Minúsculos "
+        2- "Apenas valores numéricos são validos nesse campo"
+
+senha: 1- "A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos."
+
+data Nascimento: 1- "Para a data ser válida a pessoa tem de ser maior que 18 anos"
+		 2- "Apenas valores numericos sao validos nesse campo"
+
+CPF: 1- "para CPF ser valido é precisa ter 9 algarismos"
+     2- "algoritmo criado em JS Confere se CPF é valido ou não podendo não validar um CPF caso não seja considerado valido" 
+     3- "Apenas valores numéricos são validos nesse campo"
+
+CEP: 1- "Algoritmo criado busca informações sobre o CEP assim inserindo automaticamente informações Sobre (Logradouro, Cidade e Estado)"
+     2- "Campo pode utilizar ou não um (-) validando CEP”
+
+Logradouro: 1- "Aceita tanto valores números como Letras pois existem endereços que possui número como nome (exemplo Rua 5) assim não tendo necessidade do usuário digitar Cinco"
+
+Cidade: 1- "Campo cidade não possui nenhuma limitação, mas pode ser inserida caso necessário"
+
+Estado: 1- "Campo Estado Apenas aceita letras como valor valido"
+	2- "Campo Estado Transforma automaticamente toda letra minúscula em maiúscula assim não tendo possibilidade da criação de um mesmo dado em duas formas diferentes (exemplo SP =sp) ambos apresentam Mesma Sigla"
+	3- " Campo Estado Apenas Aceita que seja preenchido por duas letras assim tentativa de inserir mais que duas letras é considerado um erro "
+
